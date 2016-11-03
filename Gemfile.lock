@@ -1,21 +1,26 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rack (1.5.2)
-    rack-protection (1.5.1)
+    builder (3.2.2)
+    gserver (0.0.1)
+    rack (1.6.4)
+    rack-protection (1.5.3)
       rack
-    rmodbus (1.2.2)
-    serialport (1.3.0)
-    sinatra (1.4.4)
-      rack (~> 1.4)
+    rmodbus (1.3.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
       rack-protection (~> 1.4)
-      tilt (~> 1.3, >= 1.3.4)
-    tilt (1.4.1)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder
+  gserver
   rmodbus
-  serialport
   sinatra
+
+BUNDLED WITH
+   1.13.6

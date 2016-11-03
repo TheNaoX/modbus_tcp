@@ -1,6 +1,5 @@
 require 'rmodbus'
 require 'sinatra'
-require 'pry'
 
 set :port, 3001
 set :bind, '0.0.0.0'
